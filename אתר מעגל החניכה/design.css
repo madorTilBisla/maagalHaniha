@@ -1,0 +1,135 @@
+@font-face{
+    src: url("VarelaRound-Regular.ttf");
+    font-family: VarelaRound;
+}
+
+@media only screen and (orientation: landscape){
+    body{
+        margin-top: 0vh;
+        margin-right: 0vw;
+        font-family: VarelaRound;
+        direction: rtl;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+    
+    .head{
+        display: flex;
+        justify-content: right;
+        background-color: rgba(191, 191, 191, 0.7);
+        padding: 1vw;
+    }
+    
+    #logoHachsham{
+        width: 3.3vw;
+        height: 7vh;
+        margin-right: 2vw;
+    }
+    
+    #logoTil{
+        width: 3.3vw;
+        height: 7vh;
+    }
+    
+    .bigFontMabab{
+        font-size: 3vw;
+        margin-right: 1vw;
+    }
+    
+    .upperFont{
+        font-size: 1.5vw;
+        margin-right: 4vw;
+        margin-top: 1.5vh;
+    }
+    
+    #lomdotText{
+        margin-right: 15vw;
+    }
+    
+    .middlePic{
+        background-image: url('images/background.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100vw;
+        height: 90vh;
+    }
+    
+    .infoHead{
+        font-size: 3.5vw;
+        display: inline-block;
+        background-color: rgba(163, 162, 162, 0.615);
+        width: 15vw;
+        text-align: center; 
+        color: white;
+        border-radius: 4vw;
+        padding: 1vw;
+        margin-right: 5vw;
+        margin-top: 15vh;
+        
+    }
+    
+    .info{
+        font-size: 1.5vw;
+        display: inline-block;
+        background-color: rgba(163, 162, 162, 0.615);
+        width: 20vw;
+        text-align: center; 
+        color: white;
+        border-radius: 4vw;
+        padding: 1.5vw;
+        margin-right: 72vw;
+    }
+    
+    .dropdown{
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 11vw;
+        box-shadow: 0vw 1vw 2vw 0vw rgba(0, 0, 0, 0.2);
+        padding: 1vw;
+        z-index: 1;
+    }
+    
+    a{
+        font-style: normal;
+        text-align: right;
+        color: black;
+        text-decoration: none;
+        font-size: 1.2vw;
+    }
+
+    .textBox{
+        display: none;
+    }
+}
+
+@media only screen and (orientation: portrait){
+    body{
+        background-color: cornsilk;
+        font-family: VarelaRound;
+    }
+
+    .head{
+        display: none;
+    }
+
+    .middlePic{
+        display: none;
+    }
+
+    .textBox{
+        font-size: 4vw;
+        text-align: center;
+        display: block;
+        direction: rtl;
+        position: relative;
+        top: 20vh;
+
+    }
+}
